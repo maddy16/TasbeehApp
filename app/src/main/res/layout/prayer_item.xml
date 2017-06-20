@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:id="@+id/prayer_name"
+        android:textColor="@color/black"
+        android:text="1.\u200F سوتے وقت کی دعا "
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prayer_name"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/prayer_short_det"
+        android:textColor="@color/black"
+        android:text="\u200F اللَّهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا "
+        android:paddingEnd="30dp"
+        android:textSize="15sp"/>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/info_icon"
+        android:id="@+id/info_btn"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+</RelativeLayout>
